@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="br-pt">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,35 +11,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="caixa/caixa--textarea.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="caixa/caixa--descriptografar.css">
+    <link rel="stylesheet" href="caixa/caixa--grande.css">
+    <link rel="stylesheet" href="btn/botoes.css">
+    <link rel="stylesheet" href="btn/btn--cript.css">
+    <link rel="stylesheet" href="btn/btn--descript.css">
+    <link rel="stylesheet" href= "btn/btn--copiar.css">
+    <link rel="stylesheet" href="img--detetive.css">
+    <link rel="stylesheet" href="caixa/caixa--txt--descriptografar.css"> 
+    <link rel="stylesheet" href="caixa/caixa--txt--digite.css">
+    <link rel="stylesheet" href="footer/copyright.css">
+    <link rel="stylesheet" href="footer/footer.css">
+    <link rel="stylesheet" href="footer/logo--rodape.css">   
+    <link rel="stylesheet" href="aviso.css">
+
     <title>Kaluanã Top Secret</title>
+    
 </head>
-<body>
-    <div class="input2">
-        <img src="Meu projeto __logo.png" width="100px" height="115px" class="logo">
-        <div class="input">
-            <div class="caixa--texto">
-                    <label for="story" class="digite--texto--label"></label>
-                        <textarea placeholder="Digite seu texto aqui:" id="story" name="story" row="10" cols="33"></textarea>
-            </div>
-           
-            <div class="caixa--descriptografar">
-                <img src="Meu projeto (1).png" alt="detetive de rosa" class="img--detetive" width="300" height="300">
-                <h2 class="txt--descriptografar"> Nenhuma mensagem encontrada</h2>
-                <p class="txt--digite"> Digite um texto que você deseja criptografar ou descriptografar. </p>
-            </div>  
-            <div class="botoes">
-                <p class="botao--criptografar">Criptografar</p>
-                <p class="botao--descriptografar">Descriptografar</p>
-            </div> 
-        </div>
-        <div class="aviso">
-            <i class="bi bi-exclamation-circle-fill"></i>
-            Apenas letras minúsculas e sem acento.
-        </div>
-    </div>
-</body>
+
+    <body>
+        <main class="corpo">
+            <img src="Meu projeto __logo.png" width="100px" height="115px" class="logo">
+                <section class="caixa--grande">
+                    <div class="caixa--texto">
+                            <label for="story" class="digite--texto--label"></label>
+                                <textarea placeholder="Digite seu texto aqui:" id="story" name="story" row="10" cols="33" class="caixa--textarea"></textarea>
+                    </div>
+            
+                    <div class="caixa--descriptografar">
+                        <img src="Meu projeto (1).png" alt="detetive de rosa" class="img--detetive" width="300" height="300">
+                            <h2 class="caixa--txt--descriptografar"> Nenhuma mensagem encontrada</h2>
+                                <p class="caixa--txt--digite"> Digite um texto que você deseja criptografar ou descriptografar. </p>
+                                    <button type="submit" class="btn--copiar"onclick="btn--copiar()">Copiar</button>
+                    </div> 
+
+                    <div class="botoes">
+                        <button type="submit" class="btn--cript"onclick="btn--cript()">Criptografar</button>
+                        <button type="submit" class="btn--descript"onclick="btn--descript()">Descriptografar</button>
+                    </div>
+                </section>
+
+                <section class="aviso">
+                    <i class="bi bi-exclamation-circle-fill"></i>
+                    Apenas letras minúsculas e sem acento.
+                </section>
+        </main>
+    </body>
+
 <footer>
     <a href = "https://www.linkedin.com/in/kaluan%C3%A3-barcelos-07879a39/"><img src="Meu projeto (2).png" alt="logo" class="logo--rodape" height="350" width="350"></a>
     <p class="copyright"> &copy; copyright Kaluanã Top Secret - 2023 </p>
 </footer>
+
 </html>
