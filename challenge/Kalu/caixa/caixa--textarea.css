@@ -1,0 +1,20 @@
+textarea {
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #F8CDFF;
+    border-radius:32px;
+    width: 930px;
+    height: 720px;
+    display: flex;
+    margin-left: 9rem;
+    padding: 2rem;
+}
+textarea:hover{
+    border: 2px solid #f0baf8;
+}
+
+textarea:active{
+    border-color: #F02B95;
+    transition: 0.2ms;
+}

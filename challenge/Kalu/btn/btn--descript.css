@@ -1,0 +1,20 @@
+.btn--descript{
+    border: 2px solid #F02B95;
+    border-radius:24px;
+    background-color:rgba(240, 43, 149, 0.4);
+    padding:24px;
+    width: 40%;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+.btn--descript:hover{
+    background-color: #ef1489;
+}
+.btn--descript:active{
+    width: 40%;
+    transition: all 0.1s ease-in;
+    background-color: #3e122a;
+
+}

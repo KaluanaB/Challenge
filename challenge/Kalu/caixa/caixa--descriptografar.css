@@ -1,0 +1,12 @@
+.caixa--descriptografar {
+    background-color: rgba(202, 202, 202, 0.4);
+    border: 2px solid #F8CDFF;
+    box-shadow: 0px 24px 32px -8px;
+    border-radius: 32px;
+    display: inline-block;
+    padding-bottom: 30%;
+    width: 300px;
+    margin-left: 2rem;
+    justify-content: center;
+
+}

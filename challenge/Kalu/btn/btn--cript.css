@@ -1,0 +1,21 @@
+.btn--cript{
+    border: 2px solid rgba(240, 43, 149, 0.4);
+    border-radius:24px;
+    background-color:#F02B95;
+    padding: 24px;
+    width: 40%;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    
+}
+.btn--cript:hover{
+    background-color: rgba(240, 43, 149, 0.4);
+}
+.btn--cript:active{
+    width: 40%;
+    transition: all 0.1s ease-in;
+    background-color: #3e122a;
+
+}

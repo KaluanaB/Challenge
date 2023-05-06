@@ -1,0 +1,11 @@
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    display: flex;
+    padding: 1%;
+    gap: 10%;
+    position: absolute;
+    margin-top: 55rem;
+    width: 800px;
+}
