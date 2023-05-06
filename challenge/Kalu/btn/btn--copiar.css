@@ -1,11 +1,22 @@
 .btn--copiar{
-    border: 2px solid rgba(240, 43, 149, 0.4);
+    border: 2px solid #F02B95;
     border-radius:24px;
-    background-color:#F02B95;
-    padding: 24px;
-    width: 40%;
+    background-color:rgba(240, 43, 149, 0.4);
+    padding: 20px;
+    margin-left: 3rem;
+    margin-top: 24rem;
+    width: 200px;
     text-align: center;
     color: #FFFFFF;
     letter-spacing: 0.5px;
-    font-weight: bold;
+    font-weight: bold;     
+}
+.btn--copiar:hover{
+    background-color: #3e122a;
+}
+.btn--copiar:active{
+    transition: all 0.1s ease-in;
+    background-color:rgba(202, 202, 202, 0.4);
+    color: #F02B95;
+
 }
